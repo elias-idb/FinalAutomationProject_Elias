@@ -232,4 +232,13 @@ I use this code in package.json file for run project smoothly
     After runnig report  allurrepoort take screenshot if any error have in project and displaying details information,
 =================================================**************************==============================================================================
 **Github journey**
-   1. Firstly created a repository in my github account    
+   1. Firstly created a repository in my github account  name = FinalAutomationProject_Elias
+   2. now use this code in terminal of my project for git initialization and push project in github
+        git init 
+        git commit -m "Firs commit for my final automation project"
+        git push -u origin main
+        git remote add origin https://github.com/elias-idb/FinalAutomationProject_Elias.git
+        git push -u origin main
+   3.     
+
+
