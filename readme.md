@@ -239,6 +239,21 @@ I use this code in package.json file for run project smoothly
         git push -u origin main
         git remote add origin https://github.com/elias-idb/FinalAutomationProject_Elias.git
         git push -u origin main
-   3.     
+   3. If you want to clone my projcet copy my repository link
+   4. after opening terminal use this code
+   
+      git clone https://github.com/elias-idb/FinalAutomationProject_Elias.git
 
+   5. since I don't upload allure-report, allur-result, node-nodules and package-lock.json
+      you shold reinstall it by using this code in terminal as per package.json information
+          npm i
+          after using this code all essential file will install and save   
+
+   6. Then run my project. 
+        npm run test  => for separte run
+        npm run allUser => for togetherness run
+        npm run getReport => for report
+**Acknowledge**
+   Our instructor Hriody Das bhiya was really impressive. Without his impressive guideline we couldn't complete this journey. Total ostad team including Ria apu also help 
+   us to their best support for this journey.
 
