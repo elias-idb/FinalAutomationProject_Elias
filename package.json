@@ -1,0 +1,31 @@
+{
+  "name": "automationproject_elias",
+  "version": "1.0.0",
+  "description": "Automation test projcet for Ostad Manual and Automation Test Course SQA: Batch:07",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js",
+    "allUser": "wdio run ./wdio.conf.js --suite allUser",
+    "getReport": "allure generate allure-results --clean && allure open"
+  },
+  "keywords": [
+    "WDIO",
+    "POM",
+    "Chromedriver",
+    "Xpath",
+    "Allur",
+    "Report"
+  ],
+  "author": "Md. Elias",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.2.2",
+    "@wdio/cli": "^9.2.6",
+    "@wdio/local-runner": "^9.2.6",
+    "@wdio/mocha-framework": "^9.2.5",
+    "@wdio/visual-service": "^6.2.1"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.32.0"
+  }
+}
